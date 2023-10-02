@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PONTO1000 login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"
+    
+     
+   
+   
+<body >
+    <div>
+
+    <form>
+        <p>Login</p>
+        <h3>Login</h3>
+        <img src="./img/Imagem do WhatsApp de 2023-09-25 à(s) 19.57.36.jpg"></img>
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="senha">
+        
+        <button <input type="submit" onclick="logar(); return false">comecar</button>
+    </form>
+</div>
+
+    <script>
+
+
+        function logar(){
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin"){
+                alert('Sucesso');
+                location.href = "index.html";
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>

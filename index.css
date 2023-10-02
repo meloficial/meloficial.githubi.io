@@ -1,0 +1,212 @@
+body{
+color:white;
+background-color:black;
+
+
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 16px;
+
+}
+a{
+color: white;
+text-decoration: none;
+
+}
+header img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 5px solid orange
+
+} 
+
+.center {
+text-align: center;
+
+} 
+h1{ 
+    color:orange;
+
+} 
+nav a:hover{
+    color: orange;
+} 
+header h1{
+    text-align: center;
+
+}
+.azul body{
+    min-height: 100vh;
+    background: orange;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    
+    
+    }
+    p{font-size: 1.3125rem;
+        font-weight: 700;
+      color: orange;
+        margin-bottom: 5rem;
+    }
+    form{ display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 28rem;
+        background: white;
+        padding: 4rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1.8rem black(0,0,0, 0.15rem);
+    
+    
+    }
+    label{
+        width: 100%;
+        color: orange;
+        align-self: flex-start;
+        transition: 0.15s linear;
+    
+    } label:focus-within{
+        color:orange
+    } 
+    input{
+        font-size: 1.1875rem;
+        color: orangered;
+        padding: 1rem 0 0.5rem 0;
+        width: 100%;
+        border: none;
+        border-color: orange;
+        border-bottom-style: dotted ;
+        margin-bottom: 3rem;
+        transition: 0.15s linear;
+    
+    
+    }
+    input:focus{
+    outline: none;
+    border-color: orangered;
+    
+    } 
+    button{
+    
+    font-size: 0.8125rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    color: orchid;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    transition: 0.25s;
+    
+    
+    }
+    button:hover,
+    button:focus{
+        outline: none;
+        background: orangered;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: orangered;
+        font-size: 0.875rem;
+        font-weight: 600;
+        transition: 0.3s;
+    
+    
+    }
+     a:hover,
+    a:focus{
+        outline: none;
+        color:orangered;
+    } a:first-of-type{
+        margin-top: 3rem;
+    } 
+    a +a {
+        margin-top: 1.125rem;
+    }
+    .roupa:hover{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+    
+    }
+    
+    .roupa :hover{
+        transform: scale(0.9) translateY(-5px);
+        cursor: pointer;
+        transition: 0.2s;}
+
+    .roupa{
+        font-size: 0.8125rem;
+        line-height: 2rem;
+        font-weight: 200;
+        flex-grow: 1;
+    
+        width: 40%;
+        padding: 1rem 2rem;
+     
+        background: transparent;
+        color: orchid;
+        border: 1px solid currentColor;
+        border-radius: 4px;
+        margin-top: 0.5rem;
+        transition: 0.25s;
+    } 
+    
+button{
+        outline: none;
+        background: orangered;
+        color: white;
+    
+        }
+        style {
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            height: 100%;
+        }
+
+        form{
+            width: 400px;
+            margin: 200px auto;
+            text-align: center;
+        }
+
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30}
+
+            img{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border: 5px solid orange}
+               
+                
+
+        
+
+  
+  
+  
+
